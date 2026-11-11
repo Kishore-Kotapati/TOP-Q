@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.toc

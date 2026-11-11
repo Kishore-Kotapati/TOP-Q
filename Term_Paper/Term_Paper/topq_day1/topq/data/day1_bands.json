@@ -1,0 +1,27 @@
+{
+  "script": "scripts/day1_bands.py",
+  "created_utc": "2026-10-22T18:21:28+00:00",
+  "python": "3.12.0",
+  "numpy": "2.1.2",
+  "matplotlib": "3.11.1",
+  "kbar": 1.0,
+  "deltas": [
+    -0.3333333333333333,
+    0.0,
+    0.3333333333333333
+  ],
+  "N_ring": 24,
+  "M_open": 40,
+  "ring_max_abs_error_sorted": {
+    "-0.3333333333333333": 1.7763568394002505e-15,
+    "0.0": 1.5543122344752192e-15,
+    "0.3333333333333333": 1.7763568394002505e-15
+  },
+  "ring_max_abs_error_pointwise": {
+    "-0.3333333333333333": 1.7763568394002505e-15,
+    "0.0": 3.650024099275759e-08,
+    "0.3333333333333333": 2.6645352591003757e-15
+  },
+  "units": "propagation-constant shift b in units of kbar (mean coupling)",
+  "randomness": "none (deterministic)"
+}
