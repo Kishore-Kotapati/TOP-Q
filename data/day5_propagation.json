@@ -1,0 +1,69 @@
+{
+  "T_b0": -1.6653345369377348e-16,
+  "T_modal_power_at_L": 0.7999999999999997,
+  "T_centre_guide_power_at_L": 0.6941655289460733,
+  "T_guide_phase_resid_at_L_rad": 7.726256782468536e-16,
+  "D_b0": 2.2222222222222214,
+  "D_modal_power_at_L": 0.7999999999999992,
+  "D_centre_guide_power_at_L": 0.6331608572230598,
+  "D_guide_phase_resid_at_L_rad": 0.001961149695723719,
+  "self_amp_uniform_max_abs_imag": 1.6073026834387407e-15,
+  "self_amp_uniform_min_real": -0.40274645718534374,
+  "self_amp_T_clean_max_abs_imag": 2.4654969035889054e-15,
+  "self_amp_T_clean_min_real": 0.6249515684575342,
+  "self_amp_T_coupling06_max_abs_imag": 2.119293938622499e-15,
+  "self_amp_T_coupling06_min_real": 0.15949147802950192,
+  "T_coupling06_zero_mode_weight_on_centre": 0.5486296387885352,
+  "script": "scripts/day5_propagation.py",
+  "created_utc": "2026-10-31T11:27:21+00:00",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "M": 81,
+  "L_over_inv_k2": 15.707963267948966,
+  "L_in_coupling_lengths": 10.0,
+  "max_edge_power_before_L": {
+    "T_centre": 5.700920992516244e-18,
+    "D_centre": 5.815186944036426e-13,
+    "T_neighbour": 8.28563058784987e-17,
+    "uniform_centre": 9.093822685955395e-13
+  },
+  "random_loss": {
+    "mean_alpha": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ],
+    "samples": 500,
+    "T_std_Re_db": [
+      8.711505798316275e-16,
+      9.375247170060015e-16,
+      9.604791252572167e-16,
+      9.712421592621017e-16
+    ],
+    "D_std_Re_db": [
+      1.020673888757345e-06,
+      9.31488692903958e-06,
+      0.0001004421887879018,
+      0.0009481222008519306
+    ],
+    "T_mean_Im_b": [
+      0.005066050623974795,
+      0.01507791252946654,
+      0.05188384061505289,
+      0.1480927610813129
+    ],
+    "D_mean_Im_b": [
+      0.00504826433375996,
+      0.015127059672408141,
+      0.05180246245680627,
+      0.14766458725686454
+    ]
+  },
+  "uniform_loss": {
+    "alpha": 0.05,
+    "max_abs_phase_change_T": 3.165866538459864e-15,
+    "max_abs_phase_change_D": 1.571225724685814e-14
+  },
+  "seed": 20261101
+}

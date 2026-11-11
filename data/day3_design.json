@@ -1,0 +1,46 @@
+{
+  "script": "scripts/day3_design.py",
+  "created_utc": "2026-10-25T18:23:16+00:00",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "params": {
+    "k1": 0.3333333333333333,
+    "k2": 1.0,
+    "M": 41,
+    "kbar": 0.6666666666666666,
+    "Delta_matched": 1.7777777777777775
+  },
+  "mode": {
+    "b_T": -2.220446049250313e-16,
+    "b_D": 2.2222222222222214,
+    "IPR_T": 0.6560000000752558,
+    "IPR_D": 0.6559999999999997
+  },
+  "first_order_std_per_unit_sigma": {
+    "T": {
+      "coupling": 2.319985901570434e-16,
+      "onsite": 0.8099382692991207,
+      "width": 0.8099382692991208
+    },
+    "D": {
+      "coupling": 0.5059644256269408,
+      "onsite": 0.8099382692526631,
+      "width": 1.2253293837843895
+    }
+  },
+  "note_width_model": "sigma_beta = sigma_kappa = 1 per unit width error (ratio unknown; Day 4 scans it)",
+  "hardware_parameters_source": "Blanco-Redondo et al., PRL 116, 163901 (2016)",
+  "hardware_parameters": {
+    "width": 450,
+    "height": 220,
+    "gap_narrow_LL": 166,
+    "gap_wide_LL": 294,
+    "gap_narrow_SS": 182,
+    "gap_wide_SS": 324,
+    "gap_uniform": 230,
+    "length_um": 500,
+    "n_guides": 203,
+    "wavelength_nm": 1550
+  },
+  "randomness": "none"
+}

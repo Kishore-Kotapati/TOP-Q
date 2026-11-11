@@ -1,0 +1,32 @@
+{
+  "script": "scripts/day2_topology.py",
+  "created_utc": "2026-10-23T15:28:25+00:00",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "units": "all b, kappa in units of kappa2",
+  "bulk_boundary_mismatches": 0,
+  "xi": {
+    "0.3333": {
+      "xi_analytic_cells": 0.9102392266268373,
+      "xi_fit_cells": 0.9102392266268452,
+      "rel_err": 8.659739592076221e-15,
+      "b_numeric": 8.843796400930655e-18
+    },
+    "0.5000": {
+      "xi_analytic_cells": 1.4426950408889634,
+      "xi_fit_cells": 1.4426950408889567,
+      "rel_err": -4.6629367034256575e-15,
+      "b_numeric": 6.731646117537782e-17
+    },
+    "0.8000": {
+      "xi_analytic_cells": 4.481420117724549,
+      "xi_fit_cells": 4.481420117723858,
+      "rel_err": -1.5420997812043424e-13,
+      "b_numeric": -1.9081958235744878e-16
+    }
+  },
+  "M_profile": 41,
+  "N_bulk_boundary": 100,
+  "randomness": "none (deterministic)"
+}
